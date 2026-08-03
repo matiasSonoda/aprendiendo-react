@@ -1,7 +1,14 @@
+import './App.css'
+import { TwitterFollowCard } from "./TwitterFollorCard";
+
 export function App () {
     return (
-        <div>
-            <h1>Twitter Card</h1>
-        </div>
+        <>
+            <TwitterFollowCard username="midudev" name="Miguel Angel"/>
+            <TwitterFollowCard username="midudev" name="Miguel Angel"/>
+            <TwitterFollowCard username="midudev" name="Miguel Angel"/>
+            <TwitterFollowCard username="midudev" name="Miguel Angel"/>
+            <TwitterFollowCard username="midudev" name="Miguel Angel"/>
+        </>
     )
-}
+} 
